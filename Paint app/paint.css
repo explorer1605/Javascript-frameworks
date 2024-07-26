@@ -1,0 +1,45 @@
+.area{
+    border:1px solid black;
+    margin:10px;
+    height:400px;
+    width:600px;
+}
+.heading{
+    height:fit-content;
+    width: auto;
+    background-color: rgb(45, 51, 82);
+}
+h1{
+    color:white;
+    font-family: '-apple-system', 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: auto 43%;
+}
+
+.color{
+  height:20px;
+  width:20px;
+  margin:3px;
+  position: relative;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.color:focus {
+    box-shadow: 2px 2px 5px #fc894d;
+  }
+ .active {
+    border:2px solid yellow ;
+}
+#eraser{
+    width: 40px;
+    height:30px;
+}
+#red{
+    background-color:red;
+}
+#black{
+    background-color:black;
+}
+#blue{
+   background-color:rgb(70, 70, 146);
+}
+

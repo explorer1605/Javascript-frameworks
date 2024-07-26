@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>paint</title>
+    <link rel="stylesheet" href="paint.css"/>
+</head>
+<body>
+    <div class="heading">
+        <h1>Paint App</h1>
+    </div>
+    <h4>Show:</h4>
+    <div class="area">
+         <canvas class="paintarea" height="400px" width="600px" tabindex=0></canvas>  
+    </div>
+    <button class="color" onclick="setcolor('red'),toggleButton(this)" id="red"></button>
+    <button class="color" onclick="setcolor('black'),toggleButton(this)" id="black"></button>
+    <button class="color" onclick="setcolor('blue'),toggleButton(this)" id="blue"></button>
+    <button class="color" onclick="setcolor('eraser'),toggleButton(this)" id="eraser">
+        <img src="eraser.svg" alt="eraser" height="18px" width="18px">
+    </button>
+   <input type="range" max="30" min="3"  id="size" value=6>
+    <script src="paint.js"> </script>
+</body>
+</html>
